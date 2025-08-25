@@ -24,14 +24,14 @@ jobs:
          pip install -r requirements.txt  # Uncomment if needed
 
     - name: Run script1.py
-      run: python sxp.py
+      run: python cron_sxp.py
 
     - name: Run script2.py
-      run: python gxp.py
+      run: python cron_gxp.py
 
     - name: Run script3.py
-      run: python sxp2.py
+      run: python cron_sxp2.py
 
     - name: Run script4.py
-      run: python sxp3.py
+      run: python cron_sxp3.py
       
